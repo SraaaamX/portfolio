@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from '../../../Animation/ScrollAnimation';
 import styles from './HardSkillsIcons.module.sass';
 import htmlIcon from '../../../../assets/img/icons/html.webp';
 import cssIcon from '../../../../assets/img/icons/css.webp';
@@ -31,10 +32,12 @@ const icons = [
 const HardSkillsIcons = () => {
     return (
         <div className={styles['hard-skills-icons-container']}>
-            {icons.map(icon => (
-                <figure key={icon.alt} className={styles['icon-figure']}>
-                    <img src={icon.src} alt={icon.alt} className={styles['icon']} draggable="false" />
-                </figure>
+            {icons.map((icon, index) => (
+                <ScrollAnimation key={icon.alt} delay={index * 0.1}>
+                    <figure className={styles['icon-figure']}>
+                        <img src={icon.src} alt={icon.alt} className={styles['icon']} draggable="false" />
+                    </figure>
+                </ScrollAnimation>
             ))}
         </div>
     );

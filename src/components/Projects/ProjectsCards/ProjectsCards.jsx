@@ -1,4 +1,6 @@
 import React from 'react';
+import ScrollAnimation from '../../Animation/ScrollAnimation';
+import { AnimationSection } from '../../Animation/AnimationSection';
 import styles from './ProjectsCards.module.sass';
 import historysImg from '../../../assets/img/cards/historys.webp';
 import xivImg from '../../../assets/img/cards/xiv.webp';
@@ -54,40 +56,42 @@ const projects = [
 
 const ProjectsCards = () => {
     return (
-        <div className={styles['projects-card-container']}>
-            {projects.map(project => (
-                <a
-                    key={project.alt}
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles['projects-card']}
-                    title={project.title}
-                >
-                    <figure className={styles['projects-card-img']}>
-                        <img
-                            src={project.src}
-                            alt={project.alt}
-                            draggable="false"
-                            loading="lazy"
-                            decoding="async"
-                        />
-                    </figure>
-                    <figcaption className={styles['projects-card-text']}>
-                        <h3>{project.title}</h3>
-                        <p>
-                            {project.description.title}
-                            <br />
-                            {project.description.space}
-                            <br />
-                            {project.description.date}
-                        </p>
-                    </figcaption>
-                </a>
-            ))}
-        </div>
+        <AnimationSection sectionName="projects">
+            <div className={styles['projects-card-container']}>
+                {projects.map((project, index) => (
+                    <ScrollAnimation key={project.alt} delay={index * 0.1}>
+                        <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles['projects-card']}
+                            title={project.title}
+                        >
+                            <figure className={styles['projects-card-img']}>
+                                <img
+                                    src={project.src}
+                                    alt={project.alt}
+                                    draggable="false"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </figure>
+                            <figcaption className={styles['projects-card-text']}>
+                                <h3>{project.title}</h3>
+                                <p>
+                                    {project.description.title}
+                                    <br />
+                                    {project.description.space}
+                                    <br />
+                                    {project.description.date}
+                                </p>
+                            </figcaption>
+                        </a>
+                    </ScrollAnimation>
+                ))}
+            </div>
+        </AnimationSection>
     );
 };
 
 export default ProjectsCards;
-
