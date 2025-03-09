@@ -23,7 +23,7 @@
     &:hover::before
         background: $quadratary-color
     &::after
-        background-image: conic-gradient(from var(--angle), $secondary-color, $quadratary-color 20%, $quadratary-color 80%, $secondary-color)
+        background-image: conic-gradient(from var(--angle), $secondary-color, $quadratary-color 20%, $quadratary-color 80%, $secondary-color) !important
         opacity: 0
     &:hover::after
         opacity: 1
@@ -32,8 +32,8 @@
 @keyframes spin
     from
         --angle: 0deg
-        background-image: conic-gradient(from var(--angle), $secondary-color, $quadratary-color 20%, $quadratary-color 80%, $secondary-color)
+        background-image: conic-gradient(from var(--angle), $secondary-color, $quadratary-color 20%, $quadratary-color 80%, $secondary-color) !important
 
     to
         --angle: 360deg
-        background-image: conic-gradient(from var(--angle), $secondary-color, $quadratary-color 20%, $quadratary-color 80%, $secondary-color)
+        background-image: conic-gradient(from var(--angle), $secondary-color, $quadratary-color 20%, $quadratary-color 80%, $secondary-color) !important

@@ -23,7 +23,7 @@
     &:hover::before
         background: $bg-color
     &::after
-        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color)
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color) !important
         opacity: 0
     &:hover::after
         opacity: 1
@@ -32,7 +32,15 @@
 @keyframes spin
     from
         --angle: 0deg
-        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color)
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color) !important
     to
         --angle: 360deg
-        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color)
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color) !important
+
+@keyframes spin
+    from
+        --angle: 0deg
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color) !important
+    to
+        --angle: 360deg
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color) !important
