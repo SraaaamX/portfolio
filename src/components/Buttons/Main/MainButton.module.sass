@@ -1,0 +1,38 @@
+@use '../../../styles/main' as *
+
+.main-btn
+    position: relative
+    width: 162px
+    height: 52px
+    margin: 4px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: $border-radius-m
+    background: $bg-color
+    &::before, &::after
+        content: ''
+        position: absolute
+        inset: -4px
+        z-index: -1
+        border-radius: 20px
+        transition: all 0.3s linear
+    &::before
+        background: $secondary-color
+        opacity: 1
+    &:hover::before
+        background: $bg-color
+    &::after
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color)
+        opacity: 0
+    &:hover::after
+        opacity: 1
+        animation: spin 2.7s linear 0.3s infinite
+
+@keyframes spin
+    from
+        --angle: 0deg
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color)
+    to
+        --angle: 360deg
+        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color)

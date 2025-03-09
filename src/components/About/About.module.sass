@@ -1,0 +1,79 @@
+@use "../../styles/main" as *
+
+.about-container
+    width: 100%
+    display: flex
+    padding: 60px 30px
+    justify-content: center
+    align-items: center
+    gap: 150px
+    .about-first
+        display: flex
+        width: 600px
+        flex-direction: column
+        justify-content: center
+        align-items: flex-start
+        gap: 20px
+    .about-img
+        img
+            width: 362px
+            height: 362px
+            transform: rotate(2.845deg)
+            border-radius: 100%
+            &:hover
+                animation: rotateIn .3s ease-in-out forwards
+
+            &:not(:hover)
+                animation: rotateOut .3s ease-in-out forwards
+
+@keyframes rotateIn
+    50%
+        transform: rotate(15deg)
+        box-shadow: 5px 5px 7px 0px $quadratary-color
+    100%
+        transform: rotate(-2.845deg)
+        box-shadow: 10px 10px 14px 0px $terciary-color
+
+@keyframes rotateOut
+    0%
+        transform: rotate(-2.845deg)
+        box-shadow: 10px 10px 14px 0px $terciary-color
+
+    50%
+        transform: rotate(15deg)
+        box-shadow: 5px 5px 7px 0px $quadratary-color
+
+    100%
+        transform: rotate(-2.845deg)
+
+@media (max-width: 1440px)
+    .about-container
+        padding: 60px 85px
+        justify-content: space-between
+
+@media (max-width: 1280px)
+    .about-container
+        display: flex
+        flex-direction: column-reverse
+        align-items: center
+        gap: 50px
+
+        .about-first
+            align-items: center
+            width: 577px
+
+@media (max-width: 768px)
+    .about-container
+        .about-img
+            img
+                width: 320px
+                height: 320px
+@media (max-width: 650px)
+    .about-container
+        gap: 30px
+        .about-first
+            width: 302px
+        .about-img
+            img
+                width: 300px
+                height: 300px

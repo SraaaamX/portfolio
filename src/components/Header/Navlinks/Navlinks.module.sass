@@ -1,0 +1,37 @@
+@use '../../../styles/main' as *
+
+.navlinks
+    display: flex
+    align-items: center
+    gap: 20px
+
+    &__list
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 20px
+        a
+            position: relative
+            &::after
+                content: ''
+                display: flex
+                flex-direction: column
+                width: 0
+                height: 2px
+                margin: auto
+                background-color: $secondary-color
+                transition: .3s ease-in-out
+                z-index: -100
+
+            &:hover::after
+                width: 100%
+
+@media (max-width: 680px)
+    .navlinks
+        display: none
+        &__list
+            flex-direction: column
+            gap: 56px
+            a
+                font-size: $burger-navlinks-1
+                font-weight: normal

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://sraaaamx.github.com/portfolio/sitemap.xml
+
+# Allow all robots to access the site
+# The sitemap URL helps search engines discover all pages

@@ -1,0 +1,20 @@
+@use "../../styles/main" as *
+
+.separator
+    display: flex
+    padding: 10px
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+    gap: 10px
+    .line
+        width: 300px
+        height: 4px
+        border-radius: $border-radius-m
+        background: $terciary-color
+
+@media (max-width: 360px)
+    .separator
+        .line
+            width: 80%
