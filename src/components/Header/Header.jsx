@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-
 import styles from './Header.module.sass';
 import SecondaryButton from '../Buttons/Secondary/SecondaryButton';
 import Navlinks from './Navlinks/Navlinks';
+
+import logoSrc from '/src/assets/svg/logo.svg';
+import burgerSrc from '/src/assets/svg/burger.svg';
+import crossSrc from '/src/assets/svg/cross.svg';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,7 +40,7 @@ const Header = () => {
                         offset={-80}
                         easing="easeInOutQuart"
                     >
-                        <img src="/src/assets/svg/logo.svg" alt="Logo" draggable="false" />
+                        <img src={logoSrc} alt="Logo" draggable="false" />
                     </Link>
                 </figure>
             </div>
@@ -48,7 +51,7 @@ const Header = () => {
                 </SecondaryButton>
             </div>
             <figure className={styles.burger} onClick={toggleMenu}>
-                <img src="/src/assets/svg/burger.svg" alt="Burger" draggable="false" />
+                <img src={burgerSrc} alt="Burger" draggable="false" />
             </figure>
 
             {shouldRender && (
@@ -63,12 +66,12 @@ const Header = () => {
                             easing="easeInOutQuart"
                             onClick={handleNavClick}
                         >
-                            <img src="/src/assets/svg/logo.svg" alt="Logo" draggable="false" />
+                            <img src={logoSrc} alt="Logo" draggable="false" />
                         </Link>
                     </figure>
 
                     <figure className={styles['menu-burger-cross']} onClick={toggleMenu}>
-                        <img src="/src/assets/svg/cross.svg" alt="Cross" draggable="false" />
+                        <img src={crossSrc} alt="Cross" draggable="false" />
                     </figure>
 
                     <Navlinks
@@ -91,3 +94,4 @@ const Header = () => {
 };
 
 export default Header;
+

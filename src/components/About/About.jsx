@@ -1,3 +1,5 @@
+import profileImg from '../../../src/assets/img/profile.webp';
+
 import React from 'react';
 import styles from './About.module.sass';
 import MainButton from '../Buttons/Main/MainButton';
@@ -21,10 +23,9 @@ export default function About() {
                 />
             </div>
             <figure className={styles['about-img']} alt="Photo de profil">
-                <img src="/src/assets/img/profile.webp" alt="Photo de profil" draggable="false" />
+                <img src={profileImg} alt=" Photo de profil" draggable="false" />
             </figure>
         </section>
     );
 }
-
 

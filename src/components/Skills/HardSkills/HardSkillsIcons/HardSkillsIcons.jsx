@@ -1,19 +1,31 @@
 import React from 'react';
 import styles from './HardSkillsIcons.module.sass';
+import htmlIcon from '../../../../assets/img/icons/html.webp';
+import cssIcon from '../../../../assets/img/icons/css.webp';
+import jsIcon from '../../../../assets/img/icons/js.webp';
+import phpIcon from '../../../../assets/img/icons/php.webp';
+import sqlIcon from '../../../../assets/img/icons/sql.webp';
+import sassIcon from '../../../../assets/img/icons/sass.webp';
+import reactIcon from '../../../../assets/img/icons/react.webp';
+import vueIcon from '../../../../assets/img/icons/vue.webp';
+import angularIcon from '../../../../assets/img/icons/angular.webp';
+import wordpressIcon from '../../../../assets/img/icons/wordpress.webp';
+import pythonIcon from '../../../../assets/img/icons/python.webp';
+import figmaIcon from '../../../../assets/img/icons/figma.webp';
 
 const icons = [
-    { src: '/src/assets/img/icons/html.webp', alt: 'HTML' },
-    { src: '/src/assets/img/icons/css.webp', alt: 'CSS' },
-    { src: '/src/assets/img/icons/js.webp', alt: 'JavaScript' },
-    { src: '/src/assets/img/icons/php.webp', alt: 'PHP' },
-    { src: '/src/assets/img/icons/sql.webp', alt: 'SQL' },
-    { src: '/src/assets/img/icons/sass.webp', alt: 'Sass' },
-    { src: '/src/assets/img/icons/react.webp', alt: 'React' },
-    { src: '/src/assets/img/icons/vue.webp', alt: 'Vue' },
-    { src: '/src/assets/img/icons/angular.webp', alt: 'Angular' },
-    { src: '/src/assets/img/icons/wordpress.webp', alt: 'WordPress' },
-    { src: '/src/assets/img/icons/python.webp', alt: 'Python' },
-    { src: '/src/assets/img/icons/figma.webp', alt: 'Figma' },
+    { src: htmlIcon, alt: 'HTML' },
+    { src: cssIcon, alt: 'CSS' },
+    { src: jsIcon, alt: 'JavaScript' },
+    { src: phpIcon, alt: 'PHP' },
+    { src: sqlIcon, alt: 'SQL' },
+    { src: sassIcon, alt: 'Sass' },
+    { src: reactIcon, alt: 'React' },
+    { src: vueIcon, alt: 'Vue' },
+    { src: angularIcon, alt: 'Angular' },
+    { src: wordpressIcon, alt: 'WordPress' },
+    { src: pythonIcon, alt: 'Python' },
+    { src: figmaIcon, alt: 'Figma' },
 ];
 
 const HardSkillsIcons = () => {

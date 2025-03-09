@@ -1,9 +1,13 @@
 import React from 'react';
 import styles from './ProjectsCards.module.sass';
+import spacenetplayImg from '../../../assets/img/cards/spacenetplay.webp';
+import historysImg from '../../../assets/img/cards/historys.webp';
+import xivImg from '../../../assets/img/cards/xiv.webp';
+import diezImg from '../../../assets/img/cards/diez.webp';
 
 const projects = [
     {
-        src: '/src/assets/img/cards/spacenetplay.webp',
+        src: spacenetplayImg,
         alt: 'Image du projet SpanceNetplay',
         title: 'SpanceNetplay',
         description: {
@@ -14,7 +18,7 @@ const projects = [
         link: 'https://julesl1107.wixsite.com/spacenetplay'
     },
     {
-        src: '/src/assets/img/cards/historys.webp',
+        src: historysImg,
         alt: 'Image du projet History\'s',
         title: 'History\'s',
         description: {
@@ -25,7 +29,7 @@ const projects = [
         link: 'https://history-s.jules-larue.mds-paris.yt/'
     },
     {
-        src: '/src/assets/img/cards/xiv.webp',
+        src: xivImg,
         alt: 'Image du projet XIV',
         title: 'XIV',
         description: {
@@ -36,7 +40,7 @@ const projects = [
         link: 'https://xivagency.fr/'
     },
     {
-        src: '/src/assets/img/cards/diez.webp',
+        src: diezImg,
         alt: 'Image du projet DIEZ Agency',
         title: 'DIEZ Agency',
         description: {
@@ -86,4 +90,3 @@ const ProjectsCards = () => {
 };
 
 export default ProjectsCards;
-
