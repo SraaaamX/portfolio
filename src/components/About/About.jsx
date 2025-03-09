@@ -21,7 +21,7 @@ export default function About() {
                 />
             </div>
             <figure className={styles['about-img']} alt="Photo de profil">
-                <img src=".src/assets/img/profile.webp" alt="Photo de profil" draggable="false" />
+                <img src="/src/assets/img/profile.webp" alt="Photo de profil" draggable="false" />
             </figure>
         </section>
     );

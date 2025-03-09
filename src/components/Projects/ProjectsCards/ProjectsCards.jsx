@@ -3,7 +3,7 @@ import styles from './ProjectsCards.module.sass';
 
 const projects = [
     {
-        src: '.src/assets/img/cards/spacenetplay.webp',
+        src: '/src/assets/img/cards/spacenetplay.webp',
         alt: 'Image du projet SpanceNetplay',
         title: 'SpanceNetplay',
         description: {
@@ -14,7 +14,7 @@ const projects = [
         link: 'https://julesl1107.wixsite.com/spacenetplay'
     },
     {
-        src: '.src/assets/img/cards/historys.webp',
+        src: '/src/assets/img/cards/historys.webp',
         alt: 'Image du projet History\'s',
         title: 'History\'s',
         description: {
@@ -25,7 +25,7 @@ const projects = [
         link: 'https://history-s.jules-larue.mds-paris.yt/'
     },
     {
-        src: '.src/assets/img/cards/xiv.webp',
+        src: '/src/assets/img/cards/xiv.webp',
         alt: 'Image du projet XIV',
         title: 'XIV',
         description: {
@@ -36,7 +36,7 @@ const projects = [
         link: 'https://xivagency.fr/'
     },
     {
-        src: '.src/assets/img/cards/diez.webp',
+        src: '/src/assets/img/cards/diez.webp',
         alt: 'Image du projet DIEZ Agency',
         title: 'DIEZ Agency',
         description: {
@@ -62,7 +62,7 @@ const ProjectsCards = () => {
                 >
                     <figure className={styles['projects-card-img']}>
                         <img
-                            src={project.src}
+                            src={project / src}
                             alt={project.alt}
                             draggable="false"
                             loading="lazy"
