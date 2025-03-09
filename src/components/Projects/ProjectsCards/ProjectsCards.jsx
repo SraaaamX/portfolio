@@ -2,10 +2,10 @@ import React from 'react';
 import ScrollAnimation from '../../Animation/ScrollAnimation';
 import { AnimationSection } from '../../Animation/AnimationSection';
 import styles from './ProjectsCards.module.sass';
-import historysImg from '../../../assets/img/cards/historys.webp';
-import xivImg from '../../../assets/img/cards/xiv.webp';
-import diezImg from '../../../assets/img/cards/diez.webp';
-import vscodeEssentialsImg from '../../../assets/img/cards/vscode_essentials.webp';
+import historysImg from '../../../assets/images/projects/historys.webp';
+import xivImg from '../../../assets/images/projects/xiv.webp';
+import diezImg from '../../../assets/images/projects/diez.webp';
+import vscodeEssentialsImg from '../../../assets/images/projects/vscode_essentials.webp';
 
 const projects = [
     {

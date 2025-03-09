@@ -1,4 +1,4 @@
-import profileImg from '../../../src/assets/img/profile.webp';
+import profileImg from '../../../src/assets/images/profile.webp';
 
 import React from 'react';
 import ScrollAnimation from '../Animation/ScrollAnimation';
