@@ -31,7 +31,7 @@ const projects = [
         description: {
             title: 'Projet d\'entreprise',
             space: '-',
-            date: '2025'
+            date: '2024'
         },
         link: 'https://xivagency.fr/'
     },
