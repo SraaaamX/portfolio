@@ -13,7 +13,7 @@ export default function UpArrow() {
                 offset={-80}
                 easing="easeInOutQuart"
             >
-                <img src="./src/assets/svg/up_arrow.svg" alt="Flèche vers le haut" draggable="false" />
+                <img src=".src/assets/svg/up_arrow.svg" alt="Flèche vers le haut" draggable="false" />
             </Link>
         </figure>
     );
