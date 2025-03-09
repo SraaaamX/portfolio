@@ -7,6 +7,7 @@
     position: fixed
     top: 0
     left: 0
+    animation: slideFromTop 1s ease-in-out forwards
     padding: 12px 40px
     justify-content: space-between
     align-items: center
@@ -59,20 +60,7 @@
         animation: slideIn 1s ease-in-out forwards
         &.closing
             animation: slideOut 1s ease-in-out forwards
-        @keyframes slideIn
-            from
-                transform: translateX(-100%)
-                opacity: 0
-            to
-                transform: translateX(0)
-                opacity: 1
-        @keyframes slideOut
-            from
-                transform: translateX(0)
-                opacity: 1
-            to
-                transform: translateX(-100%)
-                opacity: 0
+
         .menu-burger-logo
             position: absolute
             top: 13px
@@ -104,6 +92,30 @@
             gap: 56px
             align-items: center
             transform: translateY(20px)
+
+@keyframes slideFromTop
+    from
+        transform: translateY(-100%)
+        opacity: 0
+    to
+        transform: translateY(0)
+        opacity: 1
+
+@keyframes slideIn
+    from
+        transform: translateX(-100%)
+        opacity: 0
+    to
+        transform: translateX(0)
+        opacity: 1
+
+@keyframes slideOut
+    from
+        transform: translateX(0)
+        opacity: 1
+    to
+        transform: translateX(-100%)
+        opacity: 0
 
 @media (max-width: 680px)
     .header
