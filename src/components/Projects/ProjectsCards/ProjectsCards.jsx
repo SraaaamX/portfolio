@@ -1,21 +1,21 @@
 import React from 'react';
 import styles from './ProjectsCards.module.sass';
-import spacenetplayImg from '../../../assets/img/cards/spacenetplay.webp';
 import historysImg from '../../../assets/img/cards/historys.webp';
 import xivImg from '../../../assets/img/cards/xiv.webp';
 import diezImg from '../../../assets/img/cards/diez.webp';
+import vscodeEssentialsImg from '../../../assets/img/cards/vscode_essentials.webp';
 
 const projects = [
     {
-        src: spacenetplayImg,
-        alt: 'Image du projet SpanceNetplay',
-        title: 'SpanceNetplay',
+        src: vscodeEssentialsImg,
+        alt: 'Image du projet VSCode Essentials',
+        title: 'VSCode Essentials',
         description: {
             title: 'Projet Personnel',
             space: '-',
-            date: '2022'
+            date: '2023'
         },
-        link: 'https://julesl1107.wixsite.com/spacenetplay'
+        link: 'https://marketplace.visualstudio.com/items?itemName=SraaaamXTheLordWolf.vscode-pack-essentials---ais'
     },
     {
         src: historysImg,
@@ -90,3 +90,4 @@ const ProjectsCards = () => {
 };
 
 export default ProjectsCards;
+

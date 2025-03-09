@@ -10,7 +10,7 @@ export default defineConfig({
     postcss: {
       plugins: [
         autoprefixer({
-          overrideBrowserslist: ['> 1%', 'last 10000000000000000 versions', 'not dead'],
+          overrideBrowserslist: ['> 0%', 'last 1000000000000000000000000000000000000000 versions', 'Firefox ESR', 'not dead'],
         })
       ],
     },
