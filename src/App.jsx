@@ -1,6 +1,7 @@
 import './App.sass';
 import Header from './components/Header/Header';
 import Banner from './components/Banner/Banner';
+import MouseFollower from './components/MouseFollower/MouseFollower';
 import UpArrow from './components/UpArrow/UpArrow';
 import Separator from './components/Separator/Separator';
 import About from './components/About/About';
@@ -12,10 +13,11 @@ import Projects from './components/Projects/Projects';
 function App() {
   return (
     <div className="App">
+      <MouseFollower />
       <Header />
       <Banner />
-      <UpArrow />
       <main>
+        <UpArrow />
         <Separator id="about-container" />
         <About />
         <Separator id="soft-skills-container" />
@@ -31,3 +33,4 @@ function App() {
 }
 
 export default App;
+
