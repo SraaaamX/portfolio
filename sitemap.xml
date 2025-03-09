@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://sraaaamx.github.com/portfolio</loc>
+        <loc>https://sraaaamx.github.io/portfolio/</loc>
         <lastmod>2024-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://sraaaamx.github.com/portfolio#about</loc>
+        <loc>https://sraaaamx.github.io/portfolio/#about</loc>
         <lastmod>2024-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://sraaaamx.github.com/portfolio#projects</loc>
+        <loc>https://sraaaamx.github.io/portfolio/#projects</loc>
         <lastmod>2024-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://sraaaamx.github.com/portfolio#skills</loc>
+        <loc>https://sraaaamx.github.io/portfolio/#skills</loc>
         <lastmod>2024-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
