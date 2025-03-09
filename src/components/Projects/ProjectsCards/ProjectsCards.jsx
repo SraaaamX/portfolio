@@ -62,7 +62,7 @@ const ProjectsCards = () => {
                 >
                     <figure className={styles['projects-card-img']}>
                         <img
-                            src={project / src}
+                            src={project.src}
                             alt={project.alt}
                             draggable="false"
                             loading="lazy"
@@ -86,5 +86,4 @@ const ProjectsCards = () => {
 };
 
 export default ProjectsCards;
-
 

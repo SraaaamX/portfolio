@@ -21,7 +21,7 @@ const HardSkillsIcons = () => {
         <div className={styles['hard-skills-icons-container']}>
             {icons.map(icon => (
                 <figure key={icon.alt} className={styles['icon-figure']}>
-                    <img src={icon /> src} alt={icon.alt} className={styles['icon']} draggable="false" />
+                    <img src={icon.src} alt={icon.alt} className={styles['icon']} draggable="false" />
                 </figure>
             ))}
         </div>
