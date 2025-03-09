@@ -37,7 +37,7 @@ const Header = () => {
                         offset={-80}
                         easing="easeInOutQuart"
                     >
-                        <img src="src/assets/svg/logo.svg" alt="Logo" draggable="false" />
+                        <img src="./src/assets/svg/logo.svg" alt="Logo" draggable="false" />
                     </Link>
                 </figure>
             </div>
@@ -48,7 +48,7 @@ const Header = () => {
                 </SecondaryButton>
             </div>
             <figure className={styles.burger} onClick={toggleMenu}>
-                <img src="src/assets/svg/burger.svg" alt="Burger" draggable="false" />
+                <img src="./src/assets/svg/burger.svg" alt="Burger" draggable="false" />
             </figure>
 
             {shouldRender && (
@@ -63,12 +63,12 @@ const Header = () => {
                             easing="easeInOutQuart"
                             onClick={handleNavClick}
                         >
-                            <img src="src/assets/svg/logo.svg" alt="Logo" draggable="false" />
+                            <img src="./src/assets/svg/logo.svg" alt="Logo" draggable="false" />
                         </Link>
                     </figure>
 
                     <figure className={styles['menu-burger-cross']} onClick={toggleMenu}>
-                        <img src="src/assets/svg/cross.svg" alt="Cross" draggable="false" />
+                        <img src="./src/assets/svg/cross.svg" alt="Cross" draggable="false" />
                     </figure>
 
                     <Navlinks
