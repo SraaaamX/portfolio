@@ -19,7 +19,7 @@ export default function Footer() {
                 </Link>
             </figure>
             <div className={styles.socials}>
-                <a href="https://www.linkedin.com/in/jules-larue-058a3b332/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/jules-lae/" target="_blank" rel="noreferrer">
                     <Icon icon="mdi:linkedin" className={styles["socials-icons"]} />
                 </a>
                 <a href="https://github.com/SraaaamX" target="_blank" rel="noreferrer">
