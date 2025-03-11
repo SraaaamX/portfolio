@@ -3,6 +3,7 @@ import styles from './MouseFollower.module.sass';
 
 export const MouseFollower = () => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     const updatePosition = useCallback((e) => {
         requestAnimationFrame(() => {
@@ -12,8 +13,18 @@ export const MouseFollower = () => {
 
     useEffect(() => {
         window.addEventListener('mousemove', updatePosition);
-        return () => window.removeEventListener('mousemove', updatePosition);
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('mousemove', updatePosition);
+            window.removeEventListener('resize', handleResize);
+        };
     }, [updatePosition]);
+
+    if (windowWidth <= 1024) {
+        return null;
+    }
 
     return (
         <div

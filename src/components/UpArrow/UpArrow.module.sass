@@ -7,6 +7,7 @@
     position: fixed
     bottom: 40px
     right: 40px
+    animation: slideFromBottom 1s ease-in-out forwards
     justify-content: center
     align-items: center
     border-radius: $border-radius-s
@@ -28,3 +29,11 @@
             display: flex
             justify-content: center
             align-items: center
+
+@keyframes slideFromBottom
+    from
+        transform: translateY(100%)
+        opacity: 0
+    to
+        transform: translateY(0)
+        opacity: 1
