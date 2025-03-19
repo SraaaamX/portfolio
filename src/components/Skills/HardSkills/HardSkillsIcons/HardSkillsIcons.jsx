@@ -10,8 +10,10 @@ import sassIcon from '../../../../assets/images/skills/sass.webp';
 import reactIcon from '../../../../assets/images/skills/react.webp';
 import vueIcon from '../../../../assets/images/skills/vue.webp';
 import angularIcon from '../../../../assets/images/skills/angular.webp';
+import laravelIcon from '../../../../assets/images/skills/laravel.webp';
 import wordpressIcon from '../../../../assets/images/skills/wordpress.webp';
 import pythonIcon from '../../../../assets/images/skills/python.webp';
+import gitIcon from '../../../../assets/images/skills/git.webp';
 import figmaIcon from '../../../../assets/images/skills/figma.webp';
 
 const icons = [
@@ -24,8 +26,10 @@ const icons = [
     { src: reactIcon, alt: 'React' },
     { src: vueIcon, alt: 'Vue' },
     { src: angularIcon, alt: 'Angular' },
+    { src: laravelIcon, alt: 'Laravel' },
     { src: wordpressIcon, alt: 'WordPress' },
     { src: pythonIcon, alt: 'Python' },
+    { src: gitIcon, alt: 'Git' },
     { src: figmaIcon, alt: 'Figma' },
 ];
 
