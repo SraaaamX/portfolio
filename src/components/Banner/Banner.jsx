@@ -12,7 +12,7 @@ export default function Banner() {
             <ScrollAnimation noScroll={true}>
                 <div className={styles['banner-cta']}>
                     <h2>Développeur WEB Fullstack</h2>
-                    <h1><span className={styles.highlight}>Jules LARUE</span> - Donnez vie à vos idées.</h1>
+                    <h1><strong className={styles.highlight}>Jules LARUE</strong> - Donnez vie à vos idées.</h1>
                     <MainButton to="footer" children="Me Contacter" />
                 </div>
             </ScrollAnimation>

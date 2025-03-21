@@ -11,7 +11,7 @@ export default function About() {
             <section className={styles['about-container']}>
                 <ScrollAnimation>
                     <div className={styles['about-first']}>
-                        <h2 className={styles['about-title']}>Bonjour, je suis <span className={styles.highlight}>Jules LARUE</span></h2>
+                        <h2 className={styles['about-title']}>Bonjour, je suis <strong className={styles.highlight}>Jules LARUE</strong></h2>
                         <div className={styles['about-text']}>
                             <p>
                                 Passionné par le développement web, j'aime concevoir des sites modernes et responsives qui

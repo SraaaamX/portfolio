@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 import { Link } from 'react-scroll';
 
 export default function Footer() {
-    const copyright = <p className={styles['current-year']}>&copy; {new Date().getFullYear()} - <span>Jules LARUE</span></p>;
+    const copyright = <p className={styles['current-year']}>&copy; {new Date().getFullYear()} - <strong>Jules LARUE</strong></p>;
 
     return (
         <footer className={styles.footer} id="footer">
