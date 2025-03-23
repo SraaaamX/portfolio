@@ -15,7 +15,7 @@
         position: absolute
         inset: -4px
         z-index: -1
-        border-radius: 20px
+        border-radius: $border-radius-m
         transition: all 0.3s linear
     &::before
         background: $secondary-color
@@ -28,14 +28,6 @@
     &:hover::after
         opacity: 1
         animation: spin 2.7s linear 0.3s infinite
-
-@keyframes spin
-    from
-        --angle: 0deg
-        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color) !important
-    to
-        --angle: 360deg
-        background-image: conic-gradient(from var(--angle), $secondary-color, $bg-color 20%, $bg-color 80%, $secondary-color) !important
 
 @keyframes spin
     from
