@@ -44,12 +44,11 @@
             gap: 20px
 @media (max-width: 768px)
     .soft-skills-container
-        padding-bottom: 0
+        padding: 30px 30px
         .soft-skills-columns
             display: flex
             justify-content: center
             align-items: center
-            gap: 0
             .soft-skills-column
                 width: 380px
                 .soft-skills-column-paragraph
@@ -57,7 +56,15 @@
 
 @media (max-width: 450px)
     .soft-skills-container
-        padding: 0
         .soft-skills-columns
             .soft-skills-column
                 width: 90%
+                .soft-skills-column-paragraph
+                    height: auto
+
+@media (max-width: 360px)
+    .soft-skills-container
+        padding: 30px 10px
+        .soft-skills-columns
+            .soft-skills-column
+                width: 100%

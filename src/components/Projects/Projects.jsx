@@ -4,7 +4,7 @@ import ProjectsCards from './ProjeCtsCards/ProjectsCards';
 
 const Projects = () => {
     return (
-        <section className={styles['projects-container']}>
+        <section className={`${styles['projects-container']} ${styles['container']}`}>
             <div className={styles['projects-text']}>
                 <h2>Mes Projets</h2>
                 <p>Découvrez mes projets</p>

@@ -7,7 +7,7 @@ import HardSkillsIcons from './HardSkillsIcons/HardSkillsIcons';
 const HardSkills = () => {
     return (
         <AnimationSection sectionName="hardskills">
-            <section className={styles['hard-skills-container']}>
+            <section className={`${styles['hard-skills-container']} ${styles['container']}`}>
                 <ScrollAnimation>
                     <div className={styles['hard-skills-text']}>
                         <h2 className={styles['hard-skills-title']}>Hard Skills</h2>

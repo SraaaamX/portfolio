@@ -21,7 +21,7 @@ const softSkillsData = [
 const SoftSkills = () => {
     return (
         <AnimationSection sectionName="softskills">
-            <section className={styles['soft-skills-container']}>
+            <section className={`${styles['soft-skills-container']} ${styles['container']}`}>
                 <ScrollAnimation>
                     <div className={styles['soft-skills-text']}>
                         <h2 className={styles['soft-skills-title']}>Soft Skills</h2>

@@ -8,7 +8,7 @@ import profileImg from '../../../src/assets/images/profile.webp';
 export default function About() {
     return (
         <AnimationSection sectionName="about">
-            <section className={styles['about-container']}>
+            <section className={`${styles['about-container']} ${styles['container']}`}>
                 <ScrollAnimation>
                     <div className={styles['about-first']}>
                         <h2 className={styles['about-title']}>Bonjour, je suis <strong className={styles.highlight}>Jules LARUE</strong></h2>
