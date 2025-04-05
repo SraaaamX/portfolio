@@ -8,7 +8,7 @@ import jsIcon from '../../../../../public/images/skills/js.webp';
 import nodeJsIcon from '../../../../../public/images/skills/nodejs.webp';
 import prismaIcon from '../../../../../public/images/skills/prisma.webp';
 import phpIcon from '../../../../../public/images/skills/php.webp';
-import mySqlIcon from '../../../../../public/images/skills/sql.webp';
+import mySqlIcon from '../../../../../public/images/skills/mysql.webp';
 import pythonIcon from '../../../../../public/images/skills/python.webp';
 import reactIcon from '../../../../../public/images/skills/react.webp';
 import vueIcon from '../../../../../public/images/skills/vue.webp';
