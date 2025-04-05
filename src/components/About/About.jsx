@@ -3,7 +3,7 @@ import ScrollAnimation from '../Animation/ScrollAnimation';
 import { AnimationSection } from '../Animation/AnimationSection';
 import styles from './About.module.sass';
 import MainButton from '../Buttons/Main/MainButton';
-import profileImg from '../../../src/assets/images/profile.webp';
+import profileImg from '../../../public/images/profile.webp';
 
 export default function About() {
     return (

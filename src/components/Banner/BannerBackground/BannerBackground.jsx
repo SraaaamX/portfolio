@@ -3,7 +3,7 @@ import { Canvas, useFrame, useLoader } from '@react-three/fiber';
 import * as THREE from 'three';
 import { TextureLoader } from 'three';
 import styles from './BannerBackground.module.sass';
-import logoUrl from '../../../assets/svg/logo.svg';
+import logoUrl from '../../../../public/svg/logo.svg';
 
 const StarField = () => {
     const particlesRef = useRef();

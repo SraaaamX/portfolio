@@ -1,4 +1,4 @@
-import logo from "../../assets/svg/logo.svg";
+import logo from "../../../public/svg/logo.svg";
 import React from 'react';
 import styles from './Footer.module.sass';
 import { Icon } from "@iconify/react";

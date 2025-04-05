@@ -4,9 +4,9 @@ import styles from './Header.module.sass';
 import SecondaryButton from '../Buttons/Secondary/SecondaryButton';
 import Navlinks from './Navlinks/Navlinks';
 
-import logoSrc from '/src/assets/svg/logo.svg';
-import burgerSrc from '/src/assets/svg/burger.svg';
-import crossSrc from '/src/assets/svg/cross.svg';
+import logoSrc from '../../../public/svg/logo.svg';
+import burgerSrc from '../../../public/svg/burger.svg';
+import crossSrc from '../../../public/svg/cross.svg';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

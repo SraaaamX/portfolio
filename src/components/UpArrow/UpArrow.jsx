@@ -1,5 +1,5 @@
 import React from 'react';
-import upArrowImg from '../../assets/svg/up_arrow.svg';
+import upArrowImg from '../../../public/svg/up_arrow.svg';
 import { Link } from 'react-scroll';
 import styles from './UpArrow.module.sass';
 
