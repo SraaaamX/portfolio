@@ -8,7 +8,7 @@ import jsIcon from '../../../../../public/images/skills/js.webp';
 import nodeJsIcon from '../../../../../public/images/skills/nodejs.webp';
 import prismaIcon from '../../../../../public/images/skills/prisma.webp';
 import phpIcon from '../../../../../public/images/skills/php.webp';
-import sqlIcon from '../../../../../public/images/skills/sql.webp';
+import mySqlIcon from '../../../../../public/images/skills/sql.webp';
 import pythonIcon from '../../../../../public/images/skills/python.webp';
 import reactIcon from '../../../../../public/images/skills/react.webp';
 import vueIcon from '../../../../../public/images/skills/vue.webp';
@@ -27,7 +27,7 @@ const icons = [
     { src: nodeJsIcon, alt: 'Node.js' },
     { src: prismaIcon, alt: 'Prisma' },
     { src: phpIcon, alt: 'PHP' },
-    { src: sqlIcon, alt: 'SQL' },
+    { src: mySqlIcon, alt: 'SQL' },
     { src: pythonIcon, alt: 'Python' },
     { src: reactIcon, alt: 'React' },
     { src: vueIcon, alt: 'Vue' },
