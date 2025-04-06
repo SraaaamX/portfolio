@@ -5,7 +5,7 @@ import autoprefixer from 'autoprefixer';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/',
+  base: './',
   css: {
     postcss: {
       plugins: [
