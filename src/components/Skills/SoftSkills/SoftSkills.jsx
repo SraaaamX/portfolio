@@ -2,6 +2,7 @@ import React from 'react';
 import ScrollAnimation from '../../Animation/ScrollAnimation';
 import { AnimationSection } from '../../Animation/AnimationSection';
 import styles from './SoftSkills.module.sass';
+import TopRightParticles from '../../WaveParticles/TopRight/TopRightParticles';
 
 const softSkillsData = [
     {
@@ -22,6 +23,7 @@ const SoftSkills = () => {
     return (
         <AnimationSection sectionName="softskills">
             <section className={`${styles['soft-skills-container']} ${styles['container']}`}>
+                <TopRightParticles />
                 <ScrollAnimation>
                     <div className={styles['soft-skills-text']}>
                         <h2 className={styles['soft-skills-title']}>Soft Skills</h2>

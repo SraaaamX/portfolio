@@ -113,7 +113,7 @@ const LogoCube = () => {
             clearcoat: 0.5,
             clearcoatRoughness: 0.2,
             emissive: '#D7B58F',
-            emissiveIntensity: 0.2,
+            emissiveIntensity: 0.12,
             transparent: false,
             side: THREE.DoubleSide
         });

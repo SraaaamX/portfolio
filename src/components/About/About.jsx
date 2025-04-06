@@ -4,11 +4,13 @@ import { AnimationSection } from '../Animation/AnimationSection';
 import styles from './About.module.sass';
 import MainButton from '../Buttons/Main/MainButton';
 import profileImg from '../../../public/images/profile.webp';
+import TopLeftParticles from '../WaveParticles/TopLeft/TopLeftParticles';
 
 export default function About() {
     return (
         <AnimationSection sectionName="about">
             <section className={`${styles['about-container']} ${styles['container']}`}>
+                <TopLeftParticles />
                 <ScrollAnimation>
                     <div className={styles['about-first']}>
                         <h2 className={styles['about-title']}>Bonjour, je suis <strong className={styles.highlight}>Jules LARUE</strong></h2>

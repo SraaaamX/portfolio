@@ -3,12 +3,14 @@ import React from 'react';
 import styles from './Footer.module.sass';
 import { Icon } from "@iconify/react";
 import { Link } from 'react-scroll';
+import TopLeftParticles from "../WaveParticles/TopLeft/TopLeftParticles";
 
 export default function Footer() {
     const copyright = <p className={styles['current-year']}>&copy; {new Date().getFullYear()} - <strong>Jules LARUE</strong></p>;
 
     return (
         <footer className={styles.footer} id="footer">
+            <TopLeftParticles />
             <div className={styles['footer-text']}>
                 {copyright}
                 <a href="mailto:jlarue1105@gmail.com">jlarue1105@gmail.com</a>

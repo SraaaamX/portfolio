@@ -3,11 +3,13 @@ import ScrollAnimation from '../../Animation/ScrollAnimation';
 import { AnimationSection } from '../../Animation/AnimationSection';
 import styles from './HardSkills.module.sass';
 import HardSkillsIcons from './HardSkillsIcons/HardSkillsIcons';
+import TopLeftParticles from '../../WaveParticles/TopLeft/TopLeftParticles';
 
 const HardSkills = () => {
     return (
         <AnimationSection sectionName="hardskills">
             <section className={`${styles['hard-skills-container']} ${styles['container']}`}>
+                <TopLeftParticles />
                 <ScrollAnimation>
                     <div className={styles['hard-skills-text']}>
                         <h2 className={styles['hard-skills-title']}>Hard Skills</h2>
