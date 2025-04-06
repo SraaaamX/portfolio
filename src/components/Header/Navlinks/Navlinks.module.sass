@@ -2,7 +2,7 @@
 
 .navlinks
     display: flex
-    flex: 1
+    flex: 2
     justify-content: center
     align-items: center
     gap: 20px
@@ -31,9 +31,10 @@
 @media (max-width: 680px)
     .navlinks
         display: none
+        flex: initial
         &__list
             flex-direction: column
             gap: 56px
             a
                 font-size: $burger-navlinks-1
-                font-weight: normal
+                font-weight: $font-weight-base
