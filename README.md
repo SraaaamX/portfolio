@@ -41,7 +41,7 @@ Portfolio personnel créé avec React et Vite, présentant mes projets et compé
 ```
 
 ## 🌐 Déploiement
-Le site est déployé sur GitHub Pages à l'adresse : [https://sraaaamx.github.io/portfolio/](https://sraaaamx.github.io/portfolio/)
+Le site est déployé sur GitHub Pages à l'adresse : [https://sraaaamx.github.io/](https://sraaaamx.github.io/)
 
 ## 📱 Compatibilité
 - Navigateurs modernes (Chrome, Firefox, Safari, Edge)
