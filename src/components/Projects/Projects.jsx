@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Projects.module.sass';
-import ProjectsCards from './ProjeCtsCards/ProjectsCards';
+import ProjectsCards from './ProjectsCards/ProjectsCards';
 import TopRightParticles from '../WaveParticles/TopRight/TopRightParticles';
 
 const Projects = () => {
