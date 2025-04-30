@@ -5,6 +5,7 @@ import htmlIcon from '../../../../../public/images/skills/html.webp';
 import cssIcon from '../../../../../public/images/skills/css.webp';
 import sassIcon from '../../../../../public/images/skills/sass.webp';
 import jsIcon from '../../../../../public/images/skills/js.webp';
+import tsIcon from '../../../../../public/images/skills/ts.png';
 import nodeJsIcon from '../../../../../public/images/skills/nodejs.webp';
 import prismaIcon from '../../../../../public/images/skills/prisma.webp';
 import phpIcon from '../../../../../public/images/skills/php.webp';
@@ -24,6 +25,7 @@ const icons = [
     { src: cssIcon, alt: 'CSS' },
     { src: sassIcon, alt: 'Sass' },
     { src: jsIcon, alt: 'JavaScript' },
+    { src: tsIcon, alt: 'TypeScript' },
     { src: nodeJsIcon, alt: 'Node.js' },
     { src: prismaIcon, alt: 'Prisma' },
     { src: phpIcon, alt: 'PHP' },
