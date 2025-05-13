@@ -5,7 +5,7 @@ import htmlIcon from '../../../../../public/images/skills/html.webp';
 import cssIcon from '../../../../../public/images/skills/css.webp';
 import sassIcon from '../../../../../public/images/skills/sass.webp';
 import jsIcon from '../../../../../public/images/skills/js.webp';
-import tsIcon from '../../../../../public/images/skills/ts.png';
+import tsIcon from '../../../../../public/images/skills/ts.webp';
 import nodeJsIcon from '../../../../../public/images/skills/nodejs.webp';
 import prismaIcon from '../../../../../public/images/skills/prisma.webp';
 import phpIcon from '../../../../../public/images/skills/php.webp';
@@ -19,6 +19,9 @@ import laravelIcon from '../../../../../public/images/skills/laravel.webp';
 import wordpressIcon from '../../../../../public/images/skills/wordpress.webp';
 import figmaIcon from '../../../../../public/images/skills/figma.webp';
 import gitIcon from '../../../../../public/images/skills/git.webp';
+import dockerIcon from '../../../../../public/images/skills/docker.webp';
+import windowsIcon from '../../../../../public/images/skills/windows.webp';
+import linuxIcon from '../../../../../public/images/skills/linux.webp';
 
 const icons = [
     { src: htmlIcon, alt: 'HTML' },
@@ -39,6 +42,9 @@ const icons = [
     { src: wordpressIcon, alt: 'WordPress' },
     { src: figmaIcon, alt: 'Figma' },
     { src: gitIcon, alt: 'Git' },
+    { src: dockerIcon, alt: 'Docker' },
+    { src: windowsIcon, alt: 'Windows' },
+    { src: linuxIcon, alt: 'Linux' },
 ];
 
 const HardSkillsIcons = () => {
